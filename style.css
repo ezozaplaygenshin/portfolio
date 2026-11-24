@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+
+.banner{
+    width: 100%;
+    height: 75vh;
+    background: #096A61;
+    padding-top: 20px;
+    font-weight: 900;
+}
+.navbar{
+    width: 70%;
+    height: 90px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.page{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.page a{
+    text-decoration: none;
+    color: #ffffffd2;
+    font-weight: 600;
+}
+.page a:hover{
+    color: white;
+}
+.page a:active{
+    color: white;
+}
+
+.icons i{
+    font-size: 24px;
+    margin-left: 20px;
+}
+.icons i:hover{
+    color: gold;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navbar end */
+
+.profil{
+    width: 70%;
+    height: auto;
+    margin: 40px auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.pro__start{
+    width: 30%;
+    height: auto;
+    color: white;
+    font-size: 22px;
+    margin-top: 60px;
+}
+.pro__center{
+    width: 30%;
+    height: 600px;
+    border-radius: 300px;
+    background: url(https://img.magnific.com/free-photo/pleasant-looking-teenage-girl-wears-comfortable-hoodie-had-combed-dark-hair-looks-camera-with-little-smile_273609-38963.jpg?semt=ais_hybrid&w=740&q=80https://static.vecteezy.com/system/resources/thumbnails/068/620/330/small_2x/user-profile-icon-with-head-silhouette-in-yellow-square-button-simple-design-with-textured-surface-modern-digital-symbol-for-account-or-identity-png.png) no-repeat center/cover;
+}
+.pro__end{
+   width: 25%;
+    height: auto;
+    color: white;
+    font-size: 22px;
+    margin-top: 60px;
+    text-align: end;
+}
+.pro__start h1{
+    font-size: 60px;
+    margin: 5px 0px;
+}
+.front{
+    color: #ffffffd1;
+}
+pro__end h1{
+    font-size: 75px;
+}
+.container{
+    width: 70%;
+    height: 300px;
+    margin: 80px auto;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+}
+.box{
+    width: 150px;
+    height: 250px;
+    border: 1px solid rgb(220,220,220, 0.672);
+    border-radius: 40px;
+    transition: 0.4s;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.box:hover{
+    transform: translateY(-10px);
+    background: #096A61;
+    box-shadow: 5px 5px 50px #096A61;
+    border: none;
+}
+.box:hover p{
+    color: white;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.box_title{
+    color: black;
+    font-size: 20px;
+}
+.box_prosent{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* project */
+.project{
+    width: 70%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro_right{
+    width: 49%;
+    height: auto;
+}
+.pro_left{
+    width: 49%;
+    height: auto;
+    margin-top: -200px;
+}
+.pro_text{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.pro_card{
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 40px 0px;
+    position: relative;
+}
+.pro_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.pro_card:hover img{
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+.pro_but{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.pro_btn1{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(220, 20, 60, 0.823);
+}
+.pro_btn2{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    background-color: rgba(220, 20, 60, 0.823);
+}
+.pro_btn1:hover{
+    background-color: crimson;
+}
+.pro_btn2:hover{
+    background-color: crimson;
+}
+.education{
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ed_left{
+    width: 47%;
+    height: auto;
+    font-size: 25px;
+}
+.ed_right{
+    width: 47%;
+    height: auto;
+    font-size: 25px;
+}
+.ed_title{
+    text-align: center;
+    margin-top: 50px;
+}
+.po{
+    color: #096A61;
+}
